@@ -1,0 +1,55 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.main {
+    width: 400px;
+    height: 250px;  
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+}
+h1 {
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buttons {
+    justify-content: space-between;
+    display: flex;
+    height: 15px; 
+    align-items: center;
+    padding-left: 10px;  
+    border: none;
+}
+.b1 {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: white;
+}
+.b2 {
+ 
+    height: 40px; 
+    border-radius: 5px;
+    border: 1px solid;
+    width: 15em;
+    margin: 30px;
+    background-color: white;
+}
+.help{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    position: absolute;
+    top: -18px;
+    right: -15px;
+}
+.help:hover{
+    background-color: rgb(168, 168, 168);
+    transform: scale(1.15);
+}
+
